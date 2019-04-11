@@ -297,3 +297,687 @@ bash-3.2$ exit
 exit
 
 Script done on Thu Apr 11 12:34:10 2019
+Script started on Thu 11 Apr 2019 12:42:12 PM PDT
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd src
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ l[Kls
+main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ cd main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ ls
+java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ cd java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd lab1/
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ cd [K[K[Kgradle ru n
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> Connecting to Daemon[m[22D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ pwd[Kd
+/home/gabalea/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ javac [K[K[K[K[K[Kgradle ru n[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kbu ild
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :buildEnvironment[m[19D[1B[2A[0K
+[1m> Task :buildEnvironment[m
+
+[1m------------------------------------------------------------[m
+[1mRoot project[m
+[1m------------------------------------------------------------[m
+
+[32mclasspath[39m
+[33mNo dependencies[39m
+
+A web-based, searchable dependency report is available by adding the [1m--scan[m option.
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+1 actionable task: 1 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ g[Kgradle ru n
+[0m
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ gradle ru n
+[0m
+[1A
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Task 'run' not found in root project 'lab1'.
+
+* Try:
+Run [1mgradle tasks[m to get a list of available tasks. Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ s
+s: command not found
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ cdcd .[K[K[K[K ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ ls
+java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ ls
+main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd ..[K[K[K[K[K
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ pwd
+/home/gabalea/cs241/labs/lab-1-Adrian-Gabales
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle build
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/gabalea/cs241/labs/lab-1-Adrian-Gabales/build.[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project > Compiling /home/gabalea/cs241/labs/lab-1-Adrian-Gabales/build.[m[79D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[0K[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% CONFIGURING [0s][m[35D[1B[1m> root project[m[14D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[1B> IDLE[0K[6D[1B[2A[1m<[0;32;1m=============[0;39;1m> 100% CONFIGURING [0s][m[37D[2B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[0K[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [1s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[1m<[0;32;1m===[0;39;1m----------> 28% EXECUTING [1s][m[34D[1B[1m> :startScripts[m[15D[1B[2A[1m<[0;32;1m=====[0;39;1m--------> 42% EXECUTING [1s][m[34D[1B[1m> :distZip[m[0K[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 1s
+5 actionable tasks: 5 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :distZip[m[10D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd src/main/java/lab1/Hello. j[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ open Hell o.java[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[Kcd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ;s
+bash: syntax error near unexpected token `;'
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd[K[Kls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ ls
+java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ lcd[K[K[Kcd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ;s
+bash: syntax error near unexpected token `;'
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd[K[Kls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd ..[K[K[K[K[Kgradle run -- ar[K[K[Kargs[K[K[K[K[K[K[K[K[K[Kbuild
+[0m
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 5 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run
+[0m
+[1A
+[1m> Task :run[m
+Hello World!
+
+[1A[1m<[0;32;1m=============[0;39;1m> 100% EXECUTING [0s][m[35D[1B[1A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run --args = "[K[K"your[K[K[K[K241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello World!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd [K[K[Kcd src
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ ls
+main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ cd main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ ls
+java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ cd java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd ja[K[Klab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ cd [K[K[Kopen Hell o.java
+Couldn't get a file descriptor referring to the console
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ open Hell o.java
+Couldn't get a file descriptor referring to the console
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ open He[K[KHelloo.java 
+Couldn't get a file descriptor referring to the console
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ ls
+Hello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java/lab1$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ open [K[K[K[K[K [Kopen lab1
+Couldn't get a file descriptor referring to the console
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ ls
+lab1
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main/java$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ ls
+java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src/main$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ ls
+main
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales/src$ cd ..
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ cd..
+cd..: command not found
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ pwd
+/home/gabalea/cs241/labs/lab-1-Adrian-Gabales
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle build
+[0m
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 3 executed, 2 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run
+[0m
+[1A
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run --args="241"
+[0m
+[1A
+[1m> Task :run[m
+Hello World!241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ java[K[K[K[Kgradle run --args="241"
+[0m
+
+[1A[1m> Connecting to Daemon[m[22D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[0K[14D[1B[2A[0K
+[1m> Task :run[m[0K
+Hello 241
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 2 executed
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :compileJava[m[14D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ java[K[K[K[Kgradle build
+[0m
+
+[2A[1m<[0;32;1m====[0;39;1m---------> 35% EXECUTING [0s][m[34D[1B[1m> :distTar[m[10D[1B[2A[0K
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 4 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :distTar[m[10D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle [K[K[K[K[K[K[Kls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run[K[K[Krun
+[0m
+
+[2A[1m<[0;32;1;0;39;1m-------------> 0% EXECUTING [0s][m[33D[1B[1m> :compileJava[m[14D[1B[2A[0K
+[31;1m> Task :run[0;39m[31m FAILED[39m
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 0
+        at lab1.Hello.main(Hello.java:5)
+
+[31mFAILURE: [39m[31mBuild failed with an exception.[39m
+
+* What went wrong:
+Execution failed for task ':run'.
+[33m> [39mProcess 'command '/usr/lib/jvm/java-8-openjdk-amd64/bin/java'' finished with non-zero exit value 1
+
+* Try:
+Run with [1m--stacktrace[m option to get the stack trace. Run with [1m--info[m or [1m--debug[m option to get more log output. Run with [1m--scan[m to get full insights.
+
+* Get more help at [1mhttps://help.gradle.org[m
+
+[31;1mBUILD FAILED[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B> IDLE[6D[1B[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[2B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle build
+[0m
+[1A
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+5 actionable tasks: 5 up-to-date
+
+[1A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1A[2K[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gradle run --args="241"
+[0m
+
+[2A[1m<[0;32;1m=========[0;39;1m----> 75% EXECUTING [0s][m[34D[1B[1m> :run[m[6D[1B[2A[0K
+[1m> Task :run[m
+Hello 241!
+
+[32;1mBUILD SUCCESSFUL[0;39m in 0s
+2 actionable tasks: 1 executed, 1 up-to-date
+[0K
+[0K
+[2A[1m<[0;32;1;0;39;1m-------------> 0% WAITING[m[26D[1B[1m> :run[m[6D[1B[2A[2K[1B[2K[1A[0mgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git add src/main/java/lab1/H ello.java
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git commit -m "Hello now pri ngs command line arg"
+[master fc49cb1] Hello now prings command line arg
+ Committer: Adrian F. Gabales <gabalea@LabImage2016-17>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Username for 'https://github.com': gabalea@wwu.edu
+Password for 'https://gabalea@wwu.edu@github.com': 
+Counting objects: 7, done.
+Delta compression using up to 8 threads.
+Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
+Writing objects:  14% (1/7)   Writing objects:  28% (2/7)   Writing objects:  42% (3/7)   Writing objects:  57% (4/7)   Writing objects:  71% (5/7)   Writing objects:  85% (6/7)   Writing objects: 100% (7/7)   Writing objects: 100% (7/7), 504 bytes | 0 bytes/s, done.
+Total 7 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/2)   [Kremote: Resolving deltas:  50% (1/2)   [Kremote: Resolving deltas: 100% (2/2)   [Kremote: Resolving deltas: 100% (2/2), completed with 2 local objects.[K
+To https://github.com/CSCI241Spring2019/lab-1-Adrian-Gabales.git
+   288eebe..fc49cb1  master -> master
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ exit
+exit
+
+Script done on Thu 11 Apr 2019 12:59:55 PM PDT
+Script started on Thu 11 Apr 2019 01:02:51 PM PDT
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ touch dumml[Kyfile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv du[K[K[K[K[Kdummyfile Dummyfile
+git: 'dummyfile' is not a git command. See 'git --help'.
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv dummyfile Dummyfile. Dummyfilet Dummyfile [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cx Dummyfilee[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct Dummyfile[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C.txt
+fatal: not under version control, source=dummyfile.txt, destination=Dummyfile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ [Kgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv dummyfile Dummyfile
+fatal: bad source, source=dummyfile, destination=Dummyfile
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv==[K[K[K[Kmv dummyfile.txt m[KdummyFi le.txt
+fatal: not under version control, source=dummyfile.txt, destination=dummyFile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git log
+[?1h=[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+Author: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[29;1H[K[K:[K[K:[K[K:[K[K    Adding setup for gradle[m
+:[K[K[HM[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+[29;1H[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K    Adding setup for gradle[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+[29;1H[K:[K[K [KESCESC[KOO[KDD[H[2J[H[H[2J[H[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+Author: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KCC[H[2J[Hage2016-17>[m
+[m
+[m
+[m
+[m
+[33m4f3f88c[m[m
+111-111-202.wlan.wwu.edu>[m
+[m
+[m
+to pc[m
+[m
+[33m9dd1fee[m[m
+-240-245.reshall.wwu.edu>[m
+[m
+[m
+[m
+[m
+[33m33c6106[m[m
+-240-245.reshall.wwu.edu>[m
+[m
+[m
+[m
+[m
+[33m44a5340[m[m
+[m
+[m
+[m
+[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[HM[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+[29;1H[K:[K[K:[K[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K:[K[K-[Klog file: [K[K[7mNo log file  (press RETURN)[27m[29;1H[K[K:[K[K:[K[K:[K[K:[K[K    Adding setup for gradle[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KAA[K[HM[33mcommit fc49cb1636d04172883d84e75b07945bc7ead821[m[m
+[29;1H[K:[K[K [KESCESC[KOO[KBB[K    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [K[K[7mNo log file  (press RETURN)[27m[29;1H[K[K[K[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K [KESCESC[KOO[KDD[H[2J[HAuthor: Adrian F. Gabales <gabalea@LabImage2016-17>[m
+Date:   Thu Apr 11 12:59:13 2019 -0700[m
+[m
+    Hello now prings command line arg[m
+[m
+[33mcommit 288eebe25f2f805dca8146443ad3ca9c44f3f88c[m[m
+Author: gabalea@wwu.edu <adrian@wlan010-111-111-202.wlan.wwu.edu>[m
+Date:   Thu Apr 11 12:40:21 2019 -0700[m
+[m
+    transferring everything from my mac to pc[m
+[m
+[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7mlines 2-29/29 byte 939/939 (END)  (press RETURN)[27m[29;1H[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[K[7mSearch skips displayed screen  (press RETURN)[27m[29;1H[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K-[Klog file: [Kcc[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K-[Klog file: [Kff[Kdd[Kff[K[K[K[Kqq[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ q[Kls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv dummyfile.txt Dummyfi le.txt
+fatal: not under version control, source=dummyfile.txt, destination=Dummyfile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git mv D[Kdummyfile.x[Ktxt src
+fatal: not under version control, source=dummyfile.txt, destination=src/dummyfile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git rm [K dummyfile.txt
+fatal: pathspec 'dummyfile.txt' did not match any files
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ gi rm dummyfile.txt 
+gi: command not found
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git rm dummyfile.txt 
+fatal: pathspec 'dummyfile.txt' did not match any files
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git checkout
+M	typescript
+Your branch is up-to-date with 'origin/master'.
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git branch
+* [32mmaster[m
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ rm dummyfile.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ exit
+exit
+
+Script done on Thu 11 Apr 2019 01:09:17 PM PDT
+Script started on Thu 11 Apr 2019 01:09:35 PM PDT
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ mv[K[Ktouch mov[K[K[Kdummyfile.ja[K[Ktxt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ mv dummyfile Dum[K[K[K[K.txt Dummyfile.t xt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  Dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ reset
+[3g        H        H        H        H        H        H        H        H        Hc[!p[?3;4l[4l>lsgabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  Dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ checkout
+checkout: command not found
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ c[Kgit checkout
+M	typescript
+Your branch is up-to-date with 'origin/master'.
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  Dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ git reset
+Unstaged changes after reset:
+M	typescript
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  Dummyfile.txt  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ rm Dummyfile.txt 
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ ls
+build  build.gradle  src  typescript  username.txt  writeup.txt
+gabalea@CF165-24:~/cs241/labs/lab-1-Adrian-Gabales$ script[K[K[K[K[K[Kexit
+exit
+
+Script done on Thu 11 Apr 2019 01:11:02 PM PDT
