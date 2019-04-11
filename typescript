@@ -1,0 +1,299 @@
+Script started on Thu Apr 11 09:35:05 2019
+[?1034hbash-3.2$ ls
+typescript
+bash-3.2$ git clone https://github.com/CSCI241Spring2019/lab-1-Adrian-Gabales.gi t
+Cloning into 'lab-1-Adrian-Gabales'...
+remote: Enumerating objects: 8, done.[K
+remote: Counting objects:  12% (1/8)   [Kremote: Counting objects:  25% (2/8)   [Kremote: Counting objects:  37% (3/8)   [Kremote: Counting objects:  50% (4/8)   [Kremote: Counting objects:  62% (5/8)   [Kremote: Counting objects:  75% (6/8)   [Kremote: Counting objects:  87% (7/8)   [Kremote: Counting objects: 100% (8/8)   [Kremote: Counting objects: 100% (8/8), done.[K
+remote: Compressing objects:  25% (1/4)   [Kremote: Compressing objects:  50% (2/4)   [Kremote: Compressing objects:  75% (3/4)   [Kremote: Compressing objects: 100% (4/4)   [Kremote: Compressing objects: 100% (4/4), done.[K
+remote: Total 8 (delta 0), reused 8 (delta 0), pack-reused 0[K
+Unpacking objects:  12% (1/8)   Unpacking objects:  25% (2/8)   Unpacking objects:  37% (3/8)   Unpacking objects:  50% (4/8)   Unpacking objects:  62% (5/8)   Unpacking objects:  75% (6/8)   Unpacking objects:  87% (7/8)   Unpacking objects: 100% (8/8)   Unpacking objects: 100% (8/8), done.
+bash-3.2$ ls
+lab-1-Adrian-Gabales	typescript
+bash-3.2$ cd lab-1-Adrian-Gabales/
+bash-3.2$ ls
+build.gradle	src
+bash-3.2$ touchwriteup[K[K[K[K[K[K[K writeup.txt
+bash-3.2$ git add writeup.txt
+bash-3.2$ git commit -m "Added empty writeup"
+[master f3329d3] Added empty writeup
+ Committer: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 writeup.txt
+bash-3.2$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 333 bytes | 333.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/CSCI241Spring2019/lab-1-Adrian-Gabales.git
+   1523c09..f3329d3  master -> master
+bash-3.2$ ls
+build.gradle	src		writeup.txt
+bash-3.2$ open writeup.txt 
+bash-3.2$ git add writeup.txt
+bash-3.2$ git commit -m "Added part (names to writeup)'[K"[1@1[1@ 
+[master a0e402f] Added part 1 (names to writeup)
+ Committer: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+bash-3.2$ open writeup.txt
+bash-3.2$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   writeup.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+bash-3.2$ ls
+build.gradle	src		writeup.txt
+bash-3.2$ touch username.txt
+bash-3.2$ open username.txt
+bash-3.2$ git commit -m "a[KAdded username file"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+Untracked files:
+	[31musername.txt[m
+
+no changes added to commit
+bash-3.2$ git diff
+[?1h=[1mdiff --git a/writeup.txt b/writeup.txt[m[m
+[1mindex 326b30b..6e68efb 100644[m[m
+[1m--- a/writeup.txt[m[m
+[1m+++ b/writeup.txt[m[m
+[36m@@ -1 +1,2 @@[m[m
+[31m-Adrian Gabales[m[m
+\ No newline at end of file[m[m
+[32m+[m[32mAdrian Gabales[m[m
+[32m+[m[32mHobby: playing the guitar[m[m
+\ No newline at end of file[m[m
+[K[?1l>bash-3.2$ git log
+[?1h=[33mcommit a0e402f24773bd780640e961a555cd4879dd1fee[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:38:48 2019 -0700[m
+[m
+    Added part 1 (names to writeup)[m
+[m
+[33mcommit f3329d3de078e7cfdc27459df43dc583833c6106[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: gabalea@wwu.edu <adrian@c-67-201-240-245.reshall.wwu.edu>[m
+Date:   Thu Apr 11 09:35:45 2019 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 1523c09e41bb264a6f420fcd78d1a7d6e44a5340[m[m
+Author: majeskn <majeskn@wwu.edu>[m
+Date:   Mon Jan 7 20:49:19 2019 -0800[m
+[m
+    Adding setup for gradle[m
+[K[?1l>bash-3.2$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+bash-3.2$ git mv
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ g[Kclear
+[H[2Jbash-3.2$ exit
+exit
+
+Script done on Thu Apr 11 09:48:18 2019
+Script started on Thu Apr 11 12:03:05 2019
+[?1034hbash-3.2$ g[Kgit branch quest[K[K[K[K[K[K[K[K[K[K[K[Kpwd
+git: 'pwd' is not a git command. See 'git --help'.
+
+The most similar command is
+	add
+bash-3.2$ ls
+lab-1-Adrian-Gabales	typescript
+bash-3.2$ cd lab-1-Adrian-Gabales/
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ git branch question3
+bash-3.2$ git branch*
+git: 'branch*' is not a git command. See 'git --help'.
+
+The most similar command is
+	branch
+bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+  question3[m[m
+[K[?1l>bash-3.2$ git checkout quatio[K[K[K[Kestion3
+M	writeup.txt
+Switched to branch 'question3'
+bash-3.2$ git branch
+[?1h=  master[m[m
+* [32mquestion3[m[m
+[K[?1l>bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ open writeup.txt
+bash-3.2$ git commit -m "Added line 3 for [K[K[K[K[K for favority song by artist/band[K[K[K[Ks[K[K"
+On branch question3
+Changes not staged for commit:
+	[31mmodified:   writeup.txt[m
+
+Untracked files:
+	[31musername.txt[m
+
+no changes added to commit
+bash-3.2$ git m[K[K[Kt checke[Kout master
+M	writeup.txt
+Switched to branch 'master'
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+  question3[m[m
+[K[?1l>bash-3.2$ git merge question3
+Already up to date.
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ open writeup.txt
+bash-3.2$ git branch
+[?1h=* [32mmaster[m[m
+  question3[m[m
+[K[?1l>bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ cd [K[K[Kopen writeup.txt
+bash-3.2$ git branch -D question3
+Deleted branch question3 (was a0e402f).
+bash-3.2$ q[Kf[Kgit branch
+[?1h=* [32mmaster[m[m
+[K[?1l>bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ cd [K[K[Kopen writeup.txt
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ cd src
+bash-3.2$ ls
+main
+bash-3.2$ cd main
+bash-3.2$ ls
+java
+bash-3.2$ cd java
+bash-3.2$ ls
+lab1
+bash-3.2$ cd lab1/
+bash-3.2$ ls
+Hello.java
+bash-3.2$ cd [K[K[Kg[Kgrade[Kle build
+bash: gradle: command not found
+bash-3.2$ ls
+Hello.java
+bash-3.2$ cd ..
+bash-3.2$ ls
+lab1
+bash-3.2$ cd ..
+bash-3.2$ ls
+java
+bash-3.2$ cd ..
+bash-3.2$ ls
+main
+bash-3.2$ cd ..
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ builde.gradle
+bash: builde.gradle: command not found
+bash-3.2$ cd build.gradle
+bash: cd: build.gradle: Not a directory
+bash-3.2$ b[Kgradle build
+bash: gradle: command not found
+bash-3.2$ ls
+build.gradle	src		username.txt	writeup.txt
+bash-3.2$ cd src
+bash-3.2$ ls
+main
+bash-3.2$ cd main
+bash-3.2$ ls
+java
+bash-3.2$ cd java
+bash-3.2$ ls
+lab1
+bash-3.2$ cd j[Klab1
+bash-3.2$ ls
+Hello.java
+bash-3.2$ c[Kgrade build
+bash: grade: command not found
+bash-3.2$ gradle run
+bash: gradle: command not found
+bash-3.2$ brw[K[K[Kls
+Hello.java
+bash-3.2$ cd [K[K[Kn[Kbrew install gradle
+bash: brew: command not found
+bash-3.2$ ls
+Hello.java
+bash-3.2$ gradle run[K[K[Kbuild
+bash: gradle: command not found
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 11 12:34:10 2019
